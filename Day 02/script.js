@@ -76,4 +76,4 @@ console.log((new1 !== 20)? 'hn': "na");
 // Task 14: Write a program that uses the ternary operator to check if a number is positive or negative and log the result to console.
 
 new1 = 2;
-console.log()
+console.log(Math.sign(new1)); //if positive: it will return 1 and if negative it will return: -1, 0 for 0
